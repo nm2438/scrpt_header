@@ -105,15 +105,12 @@ def print_header(script_name, version_no, author, contact, date, description, ti
 
 if __name__ == '__main__':
     # edit header text
-    script_name = 'nmap_parser'
-    version_no = '0.1'
-    author = 'Nicholas Morris'
-    contact = 'https://github.com/nm2438'
-    date = '13AUG2020'
-    description = \
-        "Given the output of an nmap scan -- formatted in the typical 'open ports per host' " + \
-        "layout -- prints out a re-formatted result in the 'hosts listening per service' " + \
-        "format" \
+    script_name = ''
+    version_no = ''
+    author = ''
+    contact = ''
+    date = ''
+    description = ''
 
     # call printing function
     print_header(script_name, version_no, author, contact, date, description)
