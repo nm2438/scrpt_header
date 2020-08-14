@@ -1,3 +1,28 @@
+########################################################################################
+#======================================================================================#
+#||                               _       _                    _                     ||#
+#||           ___  ___ _ __ _ __ | |_    | |__   ___  __ _  __| | ___ _ __           ||#
+#||          / __|/ __| '__| '_ \| __|   | '_ \ / _ \/ _` |/ _` |/ _ \ '__|          ||#
+#||          \__ \ (__| |  | |_) | |_    | | | |  __/ (_| | (_| |  __/ |             ||#
+#||          |___/\___|_|  | .__/ \__|___|_| |_|\___|\__,_|\__,_|\___|_|             ||#
+#||                        |_|      |_____|                                          ||#
+#||                                                                                  ||#
+#======================================================================================#
+#||                                   scrpt_header                                   ||#
+#||                                       v0.1                                       ||#
+#======================================================================================#
+#||                                                                                  ||#
+#||                           Written by: Nicholas Morris                            ||#
+#||                        Contact: https://github.com/nm2438                        ||#
+#||                                                                                  ||#
+#||                                 Date: 13AUG2020                                  ||#
+#||                                                                                  ||#
+#======================================================================================#
+#||    Generates a nice-looking header for your scripts                              ||#
+#======================================================================================#
+########################################################################################
+
+
 import pyfiglet
 
 
@@ -105,12 +130,12 @@ def print_header(script_name, version_no, author, contact, date, description, ti
 
 if __name__ == '__main__':
     # edit header text
-    script_name = ''
-    version_no = ''
-    author = ''
-    contact = ''
-    date = ''
-    description = ''
+    script_name = 'scrpt_header'
+    version_no = '0.1'
+    author = 'Nicholas Morris'
+    contact = 'https://github.com/nm2438'
+    date = '13AUG2020'
+    description = 'Generates a nice-looking header for your scripts'
 
     # call printing function
     print_header(script_name, version_no, author, contact, date, description)
